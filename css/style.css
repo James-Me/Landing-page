@@ -5,22 +5,75 @@
 body {
   font-style: sans-serif;
 }
+
+@media (min-width: 30em) and (max-width: 80em) {
+  body {
+    background-color: rgb(202, 186, 202);
+  }
+}
 img {
   width: 200px;
   height: auto;
 }
 .wrapper {
+  margin-top: 700px;
   background-color: #f1f1f1;
   width: 1200px;
   margin: auto;
 }
 #header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
 }
 nav {
   align-self: center;
 }
-buttons {
-  width: 40px;
+button {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(216, 198, 192);
+  border: none;
+}
+iframe {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+}
+
+form {
+  text-align: center;
+  font-size: 40px;
+}
+
+input[type="email"] {
+  height: 30px;
+  margin-left: 10px;
+  border: 1px solid #000;
+}
+input[type="submit"] {
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  border: 1px solid #000;
+}
+
+.el {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.product-img {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item3 {
+  align-self: right;
 }
