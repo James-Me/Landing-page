@@ -9,3 +9,8 @@ img {
   width: 200px;
   height: auto;
 }
+.wrapper {
+  background-color: #f1f1f1;
+  width: 1200px;
+  margin: auto;
+}
