@@ -9,22 +9,22 @@
   </head>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <div class="wrapper">
     <header id="header">
-      <img src="./images/logo.jpg" alt="logo" id="header-img" />
+      <img src="https://seeklogo.com/images/1/100tb-logo-DE49A7BB7F-seeklogo.com.png" alt="logo" id="header-img" />
       <nav id="nav-bar">
         <button href="#description" class="nav-link">Description</button>
         <button href="#product-img" class="nav-link">Product Images</button>
         <button href="#testimonials" class="nav-link">Testimonials</button>
       </nav>
     </header>
+    <div class="wrapper">
+    
     <section>
       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
       </iframe>
       <div class="container">
         <h2>Product description</h2>
-        <div class="el" id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio architecto nobis omnis, harum ratione adipisci iusto ducimus sint nemo nesciunt odit, rerum itaque laboriosam culpa corporis molestias. Dolore consectetur repellat cupiditate nostrum, voluptatem ut temporibus, magni mollitia incidunt omnis non porro nemo pariatur unde? Sapiente aliquid obcaecati beatae nostrum ut, distinctio provident at dolore incidunt ipsa ex. Placeat, reprehenderit quasi, quae impedit itaque labore ipsum nemo nesciunt quos minus laboriosam exercitationem aliquam est adipisci repellat eius quibusdam tempore qui, deserunt dolorum dolore tempora. Corrupti ut nostrum voluptas vitae hic necessitatibus tempora facere ipsum iusto architecto, perferendis impedit unde magni.</div>
+        <div id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio architecto nobis omnis, harum ratione adipisci iusto ducimus sint nemo nesciunt odit, rerum itaque laboriosam culpa corporis molestias. Dolore consectetur repellat cupiditate nostrum, voluptatem ut temporibus, magni mollitia incidunt omnis non porro nemo pariatur unde? Sapiente aliquid obcaecati beatae nostrum ut, distinctio provident at dolore incidunt ipsa ex. Placeat, reprehenderit quasi, quae impedit itaque labore ipsum nemo nesciunt quos minus laboriosam exercitationem aliquam est adipisci repellat eius quibusdam tempore qui, deserunt dolorum dolore tempora. Corrupti ut nostrum voluptas vitae hic necessitatibus tempora facere ipsum iusto architecto, perferendis impedit unde magni.</div>
 
         <h2>Prodcut images</h2>
         <div id="product-img">
@@ -33,16 +33,26 @@
           <img src="./images/product.jpg" alt="product" class="grid-item3"> 
  
         </div>
-        <div id="testimonials"></div>
+        <h2>Testimonials</h2>
+        <div id="testimonials">
+          <div class="test test-img image1"></div>
+          <div class="test test-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, impedit? Neque dolores, impedit maxime expedita perspiciatis quia pariatur quasi deserunt adipisci eveniet, natus sed explicabo facere possimus iste quaerat in? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste doloremque voluptatem recusandae. Vel beatae adipisci optio eaque. Vitae, amet deleniti est voluptate ut deserunt incidunt consectetur pariatur sit quia! Tempora.</div>
+          <div class="test test-img image2"></div>
+          <div class="test test-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, impedit? Neque dolores, impedit maxime expedita perspiciatis quia pariatur quasi deserunt adipisci eveniet, natus sed explicabo facere possimus iste quaerat in? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste doloremque voluptatem recusandae. Vel beatae adipisci optio eaque. Vitae, amet deleniti est voluptate ut deserunt incidunt consectetur pariatur sit quia! Tempora.</div>
+          <div class=" test-img image3"></div>
+          <div class="test test-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, impedit? Neque dolores, impedit maxime expedita perspiciatis quia pariatur quasi deserunt adipisci eveniet, natus sed explicabo facere possimus iste quaerat in? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste doloremque voluptatem recusandae. Vel beatae adipisci optio eaque. Vitae, amet deleniti est voluptate ut deserunt incidunt consectetur pariatur sit quia! Tempora.</div>
+        </div>
 
       </div>
       <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <label for="email">Enter your email</label><input type="email" name="email" id="email" placeholder="Enter your email" pattern=".+@globex\.com" size="30" required >
+        <label for="email" id="emailLabel">Enter your email</label><input type="email" name="email" id="email" placeholder="Enter your email" pattern=".+@globex\.com" size="30" required >
         <input type="submit" value="Submit" id="submit" formaction="https://www.freecodecamp.com/email-submit"> 
 
       </form>
     </section>
-  </div>
+
+  <footer> Built in 2022 </footer>
+
   <script src="js/index.js"></script>
   </body>
 </html>

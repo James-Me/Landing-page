@@ -1,9 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "roboto", sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   font-style: sans-serif;
+  background-color: #fff;
 }
 
 @media (min-width: 30em) and (max-width: 80em) {
@@ -11,69 +14,146 @@ body {
     background-color: rgb(202, 186, 202);
   }
 }
+
 img {
-  width: 200px;
+  width: 300px;
   height: auto;
 }
+#header-img {
+  width: 120px;
+  height: 60px;
+}
 .wrapper {
-  margin-top: 700px;
-  background-color: #f1f1f1;
+  margin-top: 1000px;
+  background-color: #fff;
   width: 1200px;
   margin: auto;
+  position: ;
 }
 #header {
-  position: fixed;
+  width: 100%;
   display: flex;
+  position: fixed;
   justify-content: space-between;
+  background-color: #f1f1f1;
 }
 nav {
   align-self: center;
 }
 button {
   display: inline-block;
-  width: 80px;
+  width: 100px;
   height: 40px;
   margin: 10px;
   background-color: rgb(216, 198, 192);
   border: none;
+  cursor: pointer;
 }
+
 iframe {
   width: 100%;
   height: 500px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
-form {
+#form {
+  margin-top: 40px;
   text-align: center;
   font-size: 40px;
+  padding: 20px;
 }
 
 input[type="email"] {
-  height: 30px;
+  width: 40%;
+  height: 50px;
   margin-left: 10px;
   border: 1px solid #000;
+  height: 35px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="email"]::placeholder {
+  font-size: 20px;
+  padding: 10px;
 }
 input[type="submit"] {
-  height: 30px;
+  height: 50px;
   width: 100px;
   margin-left: 10px;
   border: 1px solid #000;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  font: 30px;
 }
 
-.el {
+#description {
   margin-top: 40px;
   font-size: 20px;
   font-family: sans-serif;
+  padding: 20px;
 }
 h2 {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
+  font-size: 40px;
 }
-.product-img {
+#product-img {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#product-img img {
+  width: 320px;
+  box-shadow: 0px 5px 20px 5px #645d5d;
 }
 
-.grid-item3 {
-  align-self: right;
+#emailLabel {
+  font: 20px sans-serif;
+}
+
+#testimonials {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+}
+.test-text {
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px 2px #645d5d;
+}
+.test-img {
+  height: 200px;
+  background-size: 300px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px 2px #645d5d;
+}
+.image1 {
+  background-image: url("https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.image2 {
+  background-image: url("https://images.pexels.com/photos/4355346/pexels-photo-4355346.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 230px;
+}
+.image3 {
+  background-image: url("https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 236px;
+}
+
+.test-text {
+  padding: 10px;
+  font-size: 23px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  font-family: "roboto";
+  background-color: #5e5454;
+  color: #fff;
+  font-weight: bold;
 }
